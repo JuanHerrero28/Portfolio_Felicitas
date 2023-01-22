@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+nav {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav-item li a {
+    text-decoration: none;
+    color: white;
+    font-family: "proxima-nova";
+    letter-spacing: 1.5px;
+    text-transform: none;
+    font-size: 1.5rem;
+}
+
+.section-1 {
+    border-radius: 17px;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 20%;
+    left: 100px;
+}
+
+.secondary-title {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.paragraph-header {
+    color: white;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: #fdfcfd;
+    border: none;
+    border-radius: 30px;
+    color: rgb(140, 133, 240);
+    padding: 20px;
+    width: 140px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* main */
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+article {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    background-color: #f5f2f2;
+    border-radius: 20px;
+}
+
+.article-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.holz {
+    width: 50%;
+    border-radius: 20px;
+    filter: grayscale(1);
+    transition: .5s;
+}
+.holz:hover {
+    filter: grayscale(0);
+}
+
+.title-article {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "proxima-nova";
+}
+.title-article-1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+
+.paragraph-1 {
+    font-family: "proxima-nova";
+    font-size: 25px;
+    margin-top: 30px;
+}
+.paragraph-2 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.btn-2 {
+    background-image: url(../img/fondo.png);
+    border: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+}
